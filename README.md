@@ -1,7 +1,7 @@
 # Flutter Community Transfer Guide 
 Thank you for your interest in the Flutter Community! We look forward to receiving and featuring your package. 
 
-To ensure all packages added are listed properly, there are a few steps you must take before your package can be added to Flutter Community.  
+To ensure all packages added are listed properly, there are a few steps you must take before your package can be added to the Flutter Community.  
 
 With these steps, you can migrate your package over to the Flutter Community GitHub organization. 
 
@@ -11,7 +11,8 @@ With these steps, you can migrate your package over to the Flutter Community Git
 4. Update the CHANGELOG.md and README.md
 5. Add Flutter Community as Pub uploader
 6. Publish your changes to Pub
-7. Transfer the package to Flutter Community
+7. Notify the Flutter Community Team
+8. Transfer the package to Flutter Community
 
 ## 1: Create an issue on Flutter Community
 Before you can move your package over to the community organization, you first need to submit it by [creating an issue and filling out the template](https://github.com/fluttercommunity/community/issues/new?assignees=jeroen-meijer&labels=package+proposal&template=----package-proposal.md&title=Package+Proposal%3A+%5BPACKAGE+NAME%5D).
@@ -26,7 +27,8 @@ After you’ve opened a ticket, a member of the Flutter Community team will revi
 ## 3: Update pubspec.yaml
 Now that your package has been accepted to Flutter Community, there are a few changes you need to make to your `pubspec.yaml` file.
 
-### First, you need to add the field `maintainer` to your `pubspec.yaml`:
+### First, add the `maintainer` field to your `pubspec.yaml`.
+Only one maintainer is currently supported. Format the value like the example below:
 ```yaml
 ...
 maintainer: YOUR-NAME (@YOURGITHUBUSERNAME)
@@ -72,7 +74,10 @@ flutter packages pub uploader add community@flutter.zone
 Finally, save you changes and push your updated files to Pub.
 (Usually, this is done through running `flutter packages publish`.)
 
-## 7: Transfer the package to Flutter Community
+## 7: Notify the Flutter Community team
+Once you've made all the necessary changes above, please notify the member of the team who reviewed your package in the original package proposal issue. They will review your changes and add you as a member of the Flutter Community's GitHub.
+
+## 8: Transfer the package to Flutter Community
 Now that you’re a member of Flutter Community’s GitHub organization, you can transfer your package repository.
 
 Navigate to settings in your package GitHub’s repository, scroll to “Danger Zone” then select “Transfer repository”. After selecting this option, you will be presented with a pop up dialog prompting you to enter your repository name and the name of the GitHub organization you’d like to move the package to. For the second option, enter the name `fluttercommunity`.
