@@ -5,14 +5,14 @@ To ensure all packages added are listed properly, there are a few steps you must
 
 With these steps, you can migrate your package over to the Flutter Community GitHub organization. 
 
-1. Create an issue on Flutter Community
-2. Get approval from a moderator
-3. Update pubspec.yaml
-4. Update the CHANGELOG.md and README.md
-5. Add Flutter Community as Pub uploader
-6. Publish your changes to Pub
-7. Notify the Flutter Community Team
-8. Transfer the package to Flutter Community
+1. [Create an issue on Flutter Community](#1-create-an-issue-on-flutter-community)
+2. [Get approval from a moderator](#2-get-approval-from-a-moderator)
+3. [Update pubspec.yaml](#3-update-pubspec-yaml)
+4. [Update the CHANGELOG.md and README.md](#4-update-the-changelog-md-and-readme-md)
+5. [Add Flutter Community as Pub uploader](#5-add-flutter-community-as-pub-uploader)
+6. [Publish your changes to Pub](#6-publish-your-changes-to-pub)
+7. [Notify the Flutter Community Team](#7-notify-the-flutter-community-team)
+8. [Transfer the package to Flutter Community](#8-transfer-the-package-to-flutter-community)
 
 ## 1: Create an issue on Flutter Community
 Before you can move your package over to the community organization, you first need to submit it by [creating an issue and filling out the template](https://github.com/fluttercommunity/community/issues/new?assignees=jeroen-meijer&labels=package+proposal&template=----package-proposal.md&title=Package+Proposal%3A+%5BPACKAGE+NAME%5D).
