@@ -22,7 +22,7 @@ Once you’ve completed the submission form, verify that all fields have been pr
 ## <a name="2"></a> 2: Get approval from a moderator
 After you’ve opened a ticket, a member of the Flutter Community team will review your package and decide whether to accept or reject your submission. Don’t worry, if it gets rejected, you’ll get feedback and will know what changes you could make to get it re-reviewed.
 
-**Factors such as code quality, documentation and comments all determine whether or not your package is accepted, so please make sure your package looks its best when submitting your request!**
+**Factors such as code quality, documentation, comments and especially pub.dev scores all determine whether or not your package is accepted, so please make sure your package looks its best when submitting your request!**
 
 ## <a name="3"></a> 3: Update pubspec.yaml
 Now that your package has been accepted to Flutter Community, there are a few changes you need to make to your `pubspec.yaml` file.
