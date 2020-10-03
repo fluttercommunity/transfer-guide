@@ -27,20 +27,11 @@ After you’ve opened a ticket, a member of the Flutter Community team will revi
 ## <a name="3"></a> 3: Update pubspec.yaml
 Now that your package has been accepted to Flutter Community, there are a few changes you need to make to your `pubspec.yaml` file.
 
-### First, add the `maintainer` field to your `pubspec.yaml`.
+### Add the `maintainer` field to your `pubspec.yaml`.
 Only one maintainer is currently supported. Format the value like the example below:
 ```yaml
 ...
 maintainer: YOUR-NAME (@YOURGITHUBUSERNAME)
-...
-```
-
-### Next, you need to modify the authors field to be an array (if it’s not already). This array should contain the author “Flutter Community” with the email address “community@flutter.zone” as the **first entry** like below:
-```yaml
-...
-authors:
-    - Flutter Community <community@flutter.zone>
-    - YOUR-NAME <YOUR@EMAIL.COM>
 ...
 ```
 
