@@ -62,7 +62,7 @@ flutter packages pub uploader add community@flutter.zone
 ```
 
 ## <a name="6"></a> 6: Publish your changes to Pub
-Finally, save you changes and push your updated files to Pub.
+Finally, save your changes and push your updated files to Pub.
 (Usually, this is done through running `flutter packages publish`.)
 
 ## <a name="7"></a> 7: Notify the Flutter Community team
